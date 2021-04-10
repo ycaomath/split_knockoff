@@ -3,7 +3,7 @@ This is the package for split Knockoffs. The main content of this package is the
 1. split_knockoffs.filter(X, D, y, nu_s, option); the split Knockoff filter, details will be explained later
 2. split_knockoffs.cv_filter(X, D, y, nu_s, option); the split Knockoff filter with cross validation, details will be explained later.
 
-To reproduce the figures and tables in the paper, please go to "simulation" folder and "AD_experiments" folder and run the respective file. The recommended setting for the range of lambda is 10<sup>0</sup> - 10<sup>-6</sup>. Before using this package, please add the folder to path by changing the "addpath('C:\Users\Yang\desktop\Split_Knockoffs');" in each document. This package is built based on [Knockoffs for matlab](https://web.stanford.edu/group/candes/knockoffs/software/knockoffs/).
+To reproduce the figures and tables in the paper, please go to "simulation" folder and "AD_experiments" folder and run the respective file. The recommended setting for the range of lambda is 10<sup>0</sup> - 10<sup>-6</sup> with step size 0.01. Before using this package, please add the folder to path by changing the "addpath('C:\Users\Yang\desktop\Split_Knockoffs')" in each document. This package is built based on [Knockoffs for matlab](https://web.stanford.edu/group/candes/knockoffs/software/knockoffs/).
 
 
 
