@@ -2,10 +2,10 @@ The data is obtained from [ADNI](http://adni.loni.ucla.edu) dataset, acquired by
 
 The response variable vector is the Alzheimer's Disease Assessment Scale (ADAS), which was originally designed to assess the severity of cognitive dysfunction <sup>3</sup> and was later found to be able to clinically distinguish the diagnosed AD from normal controls <sup>4</sup>.
 
-1: J. Ashburner. A fast diffeomorphic image registration algorithm. Neuroimage, 38(1):95–113, 2007.
+1. J. Ashburner. A fast diffeomorphic image registration algorithm. Neuroimage, 38(1):95–113, 2007.
 
 2. N.  Tzourio-Mazoyer,  B. Landeau,  D. Papathanassiou,  F. Crivello,  O. Etard,  N. Delcroix, B. Mazoyer, and M. Joliot.  Automated anatomical labeling of activations in spm using amacroscopic anatomical parcellation of the MNI MRI single-subject brain. Neuroimage, 15(1):273–289, 2002.
 
 3. W. G. Rosen, R. C. Mohs, and K. L. Davis.  A new rating scale for alzheimer’s disease. Am J Psychiatry, 141(11):1356–64, 1984.
 
-4. R. F. Zec, E. S. Landreth, S. K. Vicari, E. Feldman, J. Belman, A. Andrise,  R. Robbs, V. Kumar, and R. Becker. Alzheimer disease assessment scale: useful for both earlydetection and staging of dementia of the alzheimer type. Alzheimer Disease and AssociatedDisorders, 1992.
+4. R. F. Zec, E. S. Landreth, S. K. Vicari, E. Feldman, J. Belman, A. Andrise,  R. Robbs, V. Kumar, and R. Becker. Alzheimer disease assessment scale: useful for both early detection and staging of dementia of the alzheimer type. Alzheimer Disease and Associated Disorders, 1992.
