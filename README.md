@@ -13,7 +13,7 @@ To reproduce the figures and tables in the paper, please go to "simulation" fold
 
 ### split Knockoff filter for structural sparsity problem
 
-'[results, Z, t_Z] = split_knockoffs.filter(X, D, y, nu_s, option)':
+[results, Z, t_Z] = split_knockoffs.filter(X, D, y, nu_s, option):
 
 input argument
 - X : the design matrix
