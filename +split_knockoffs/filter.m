@@ -43,9 +43,7 @@ results = cell(num_nu, 1);
 Z = cell(num_nu, 1);
 t_Z = cell(num_nu, 1);
 
-X = normalize(X);
 [n, ~] = size(X);
-y = normalize(y);
 
 q = option.q;
 method = option.method;
