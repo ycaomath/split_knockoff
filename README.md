@@ -11,7 +11,9 @@ To reproduce the figures and tables in the paper, please go to "simulation" fold
 
 ## Usage of functions:
 
-[results, Z, t_Z] = split_knockoffs.filter(X, D, y, nu_s, option): split Knockoff filter for structural sparsity problem.
+### split Knockoff filter for structural sparsity problem
+
+[results, Z, t_Z] = split_knockoffs.filter(X, D, y, nu_s, option):
 
 input argument
 - X : the design matrix
@@ -40,7 +42,9 @@ output argument
 - Z: a cell of length(nu_s) * 1 with the feature significance Z in each cell w.r.t. nu.
 - t_Z: a cell of length(nu_s) * 1 with the knockoff significance tilde_Z in each cell w.r.t. nu.
 
-[result, CV_loss, nu_optimal] = split_knockoffs.cv_filter(X, D, y, nu_s, option): split Knockoff filter for structural sparsity problem, using cross validation.
+### split Knockoff filter for structural sparsity problem, using cross validation.
+
+[result, CV_loss, nu_optimal] = split_knockoffs.cv_filter(X, D, y, nu_s, option):
 
 input argument
 - X : the design matrix
