@@ -22,10 +22,10 @@ input argument
 - nu_s: a set of nu, appointed by the user
 - nu: the parameter for variable splitting
 - option: options for creating the Knockoff statistics
-	- option.eta : the choice of eta for creating the knockoff copy
-	- option.q: the desired FDR control bound
-	- option.method: "knockoff" or "knockoff+"
-	- option.stage0: choose the method to conduct split knockoff
+	1. option.eta : the choice of eta for creating the knockoff copy
+	2. option.q: the desired FDR control bound
+	3. option.method: "knockoff" or "knockoff+"
+	4. option.stage0: choose the method to conduct split knockoff
 		- "fixed": fixed intercept assignment for PATH ORDER method
 			- option.beta : the choice of fixed beta for step 0: 
 				- "mle": maximum likelihood estimator; 
@@ -34,8 +34,8 @@ input argument
 				- "cv_ridge": cross validation choice of ridge regression over lambda
 		- "path": take the regularization path of split LASSO as the intercept assignment for PATH ORDER method
 		- "magnitude": using MAGNITUDE method
-	- option.lambda_s: the choice of lambda for path
-	- option.normalize: whether to normalize the data
+	5. option.lambda_s: the choice of lambda for path
+	6. option.normalize: whether to normalize the data
 
 output argument
 - results: a cell of length(nu_s) * 1 with the selected variable set in each cell w.r.t. nu.
@@ -53,10 +53,10 @@ input argument
 - nu_s: a set of nu, appointed by the user
 - nu: the parameter for variable splitting
 - option: options for creating the Knockoff statistics
-	- option.eta : the choice of eta for creating the knockoff copy
-	- option.q: the desired FDR control bound
-	- option.method: "knockoff" or "knockoff+"
-	- option.stage0: choose the method to conduct split knockoff
+	1. option.eta : the choice of eta for creating the knockoff copy
+	2. option.q: the desired FDR control bound
+	3. option.method: "knockoff" or "knockoff+"
+	4. option.stage0: choose the method to conduct split knockoff
 		- "fixed": fixed intercept assignment for PATH ORDER method
 			- option.beta : the choice of fixed beta for step 0: 
 				- "mle": maximum likelihood estimator; 
@@ -65,9 +65,9 @@ input argument
 				- "cv_ridge": cross validation choice of ridge regression over lambda
 		- "path": take the regularization path of split LASSO as the intercept assignment for PATH ORDER method
 		- "magnitude": using MAGNITUDE method
-	- option.lambda_s: the choice of lambda for path
-	- option.k_fold: the fold used in cross validation
-	- option.cv_rule: the rule used in CV
+	5. option.lambda_s: the choice of lambda for path
+	6. option.k_fold: the fold used in cross validation
+	7. option.cv_rule: the rule used in CV
 		- "min": choose nu with minimal CV loss
 		- "complexity": choose nu with minimal model complexity in the range of 0.99 * CV_loss <= min(CV_loss)
 
