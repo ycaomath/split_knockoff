@@ -94,9 +94,3 @@ for i = 1: num_nu
     connection = connect.aalLabel.Var2(results);
     result_edge{i} = connection;
 end
-
-hold on
-hist(y_AD);
-% hist(y_MCI);
-hist(y_NC);
-hold off
