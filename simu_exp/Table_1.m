@@ -5,7 +5,7 @@
 %% choose parameters
 
 k = 20; % the sparsity level
-A = 0.25; % the signal noise ratio
+A = 1; % the signal noise ratio
 n = 500;% the sample size
 p = 100;% the number of features
 c = 0.5; % the feature correlation
@@ -14,7 +14,7 @@ option = struct;
 option.q = 0.2;
 option.beta = 'cv_all';
 option.frac = 2/5;
-option.tests = 200; % the number of simulation instances
+option.tests = 20; % the number of simulation instances
 option.normalize = true;
 option.lambda = 10.^[0: -0.01: -6];
 
